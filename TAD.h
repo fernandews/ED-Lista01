@@ -12,7 +12,7 @@ class No {
         No *ant_referencia;
         No *prox_referencia;
 
-        No(int e){
+        No(char e){
             dado = e;
             ant_referencia = nullptr;
             prox_referencia = nullptr;
